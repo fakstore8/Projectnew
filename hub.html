@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub Belajar Matematika - Trigonometri</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-100">
+    
+    <div class="min-h-screen p-4 py-12">
+        <div class="max-w-7xl mx-auto">
+            
+            <!-- Header -->
+            <div class="text-center mb-12">
+                <div class="inline-flex items-center justify-center w-24 h-24 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full mb-6 shadow-xl">
+                    <svg class="w-14 h-14 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                    </svg>
+                </div>
+                <h1 class="text-5xl md:text-6xl font-bold text-gray-800 mb-4">
+                    Hub Belajar Matematika
+                </h1>
+                <p class="text-xl text-gray-600 mb-2">
+                    Kalkulator Trigonometri Lengkap
+                </p>
+                <p class="text-gray-500">
+                    Pilih kalkulator yang sesuai dengan kebutuhan belajar Anda
+                </p>
+            </div>
+
+            <!-- Grid Kalkulator -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+                
+                <!-- Kalkulator Sistem K (Link ke mtk.html) -->
+                <a href="mtk.html" class="calculator-card bg-white rounded-2xl p-6 border-2 border-indigo-200 hover:border-indigo-400 hover:shadow-2xl transition-all transform hover:-translate-y-1">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-14 h-14 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-xl flex items-center justify-center shadow-lg">
+                            <svg class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Sistem K Otomatis</h3>
+                            <span class="text-xs bg-indigo-100 text-indigo-700 px-2 py-1 rounded-full">Rekomendasi</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4 text-sm">
+                        Menghitung sin, cos, tan dengan sistem K (kelipatan 90°). Otomatis mencari titik referensi terdekat dan menentukan tanda per kuadran.
+                    </p>
+                    <div class="bg-indigo-50 rounded-lg p-3 mb-4">
+                        <p class="text-xs text-gray-600 font-semibold mb-2">✨ Fitur Unggulan:</p>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• Deteksi nilai K otomatis</li>
+                            <li>• Sudut referensi otomatis</li>
+                            <li>• Nilai eksak & desimal</li>
+                            <li>• Tanda sesuai kuadran</li>
+                            <li>• Penguraian sudut lengkap</li>
+                        </ul>
+                    </div>
+                    <div class="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-3 rounded-lg font-semibold text-center">
+                        Mulai Belajar →
+                    </div>
+                </a>
+
+                <!-- Kalkulator Basic -->
+                <div class="calculator-card bg-white rounded-2xl p-6 border-2 border-green-200 hover:border-green-400 hover:shadow-2xl transition-all transform hover:-translate-y-1 opacity-75 cursor-not-allowed">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-500 rounded-xl flex items-center justify-center shadow-lg">
+                            <svg class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Kalkulator Dasar</h3>
+                            <span class="text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full">Segera Hadir</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4 text-sm">
+                        Kalkulator sederhana untuk menghitung nilai sin, cos, tan dari sudut dalam derajat atau radian dengan cepat.
+                    </p>
+                    <div class="bg-green-50 rounded-lg p-3 mb-4">
+                        <p class="text-xs text-gray-600 font-semibold mb-2">✨ Fitur Unggulan:</p>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• Input derajat atau radian</li>
+                            <li>• Hasil desimal akurat</li>
+                            <li>• Interface simpel & mudah</li>
+                            <li>• Perhitungan cepat</li>
+                        </ul>
+                    </div>
+                    <div class="w-full bg-gray-400 text-white py-3 rounded-lg font-semibold text-center">
+                        Segera Hadir
+                    </div>
+                </div>
+
+                <!-- Kalkulator Inverse -->
+                <div class="calculator-card bg-white rounded-2xl p-6 border-2 border-orange-200 hover:border-orange-400 hover:shadow-2xl transition-all transform hover:-translate-y-1 opacity-75 cursor-not-allowed">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-14 h-14 bg-gradient-to-br from-orange-500 to-red-500 rounded-xl flex items-center justify-center shadow-lg">
+                            <svg class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Invers Trigonometri</h3>
+                            <span class="text-xs bg-orange-100 text-orange-700 px-2 py-1 rounded-full">Segera Hadir</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4 text-sm">
+                        Menghitung arcsin, arccos, arctan untuk mencari sudut dari nilai trigonometri yang diketahui.
+                    </p>
+                    <div class="bg-orange-50 rounded-lg p-3 mb-4">
+                        <p class="text-xs text-gray-600 font-semibold mb-2">✨ Fitur Unggulan:</p>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• Arcsin, arccos, arctan</li>
+                            <li>• Hasil derajat & radian</li>
+                            <li>• Validasi input otomatis</li>
+                            <li>• Range checking</li>
+                        </ul>
+                    </div>
+                    <div class="w-full bg-gray-400 text-white py-3 rounded-lg font-semibold text-center">
+                        Segera Hadir
+                    </div>
+                </div>
+
+                <!-- Kalkulator Segitiga -->
+                <div class="calculator-card bg-white rounded-2xl p-6 border-2 border-blue-200 hover:border-blue-400 hover:shadow-2xl transition-all transform hover:-translate-y-1 opacity-75 cursor-not-allowed">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center shadow-lg">
+                            <svg class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Segitiga Siku-Siku</h3>
+                            <span class="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full">Segera Hadir</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4 text-sm">
+                        Hitung sisi dan sudut segitiga siku-siku menggunakan teorema Pythagoras dan trigonometri.
+                    </p>
+                    <div class="bg-blue-50 rounded-lg p-3 mb-4">
+                        <p class="text-xs text-gray-600 font-semibold mb-2">✨ Fitur Unggulan:</p>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• Hitung sisi tidak diketahui</li>
+                            <li>• Hitung semua sudut</li>
+                            <li>• Visual diagram segitiga</li>
+                            <li>• Teorema Pythagoras</li>
+                        </ul>
+                    </div>
+                    <div class="w-full bg-gray-400 text-white py-3 rounded-lg font-semibold text-center">
+                        Segera Hadir
+                    </div>
+                </div>
+
+                <!-- Kalkulator Konversi -->
+                <div class="calculator-card bg-white rounded-2xl p-6 border-2 border-purple-200 hover:border-purple-400 hover:shadow-2xl transition-all transform hover:-translate-y-1 opacity-75 cursor-not-allowed">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center shadow-lg">
+                            <svg class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Konversi Satuan</h3>
+                            <span class="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Segera Hadir</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4 text-sm">
+                        Konversi antara derajat, radian, dan gradian dengan mudah dan cepat untuk berbagai keperluan.
+                    </p>
+                    <div class="bg-purple-50 rounded-lg p-3 mb-4">
+                        <p class="text-xs text-gray-600 font-semibold mb-2">✨ Fitur Unggulan:</p>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• Derajat ↔ Radian</li>
+                            <li>• Derajat ↔ Gradian</li>
+                            <li>• Radian ↔ Gradian</li>
+                            <li>• Real-time conversion</li>
+                        </ul>
+                    </div>
+                    <div class="w-full bg-gray-400 text-white py-3 rounded-lg font-semibold text-center">
+                        Segera Hadir
+                    </div>
+                </div>
+
+                <!-- Identitas Trigonometri -->
+                <div class="calculator-card bg-white rounded-2xl p-6 border-2 border-teal-200 hover:border-teal-400 hover:shadow-2xl transition-all transform hover:-translate-y-1 opacity-75 cursor-not-allowed">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-14 h-14 bg-gradient-to-br from-teal-500 to-green-500 rounded-xl flex items-center justify-center shadow-lg">
+                            <svg class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Identitas Trigonometri</h3>
+                            <span class="text-xs bg-teal-100 text-teal-700 px-2 py-1 rounded-full">Segera Hadir</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-4 text-sm">
+                        Referensi lengkap identitas trigonometri beserta contoh penerapan dan penjelasan detail.
+                    </p>
+                    <div class="bg-teal-50 rounded-lg p-3 mb-4">
+                        <p class="text-xs text-gray-600 font-semibold mb-2">✨ Fitur Unggulan:</p>
+                        <ul class="text-xs text-gray-600 space-y-1">
+                            <li>• Identitas dasar</li>
+                            <li>• Identitas penjumlahan</li>
+                            <li>• Identitas sudut ganda</li>
+                            <li>• Contoh soal & pembahasan</li>
+                        </ul>
+                    </div>
+                    <div class="w-full bg-gray-400 text-white py-3 rounded-lg font-semibold text-center">
+                        Segera Hadir
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Petunjuk -->
+            <div class="bg-yellow-50 border-2 border-yellow-300 rounded-xl p-6 mb-8">
+                <h3 class="text-lg font-bold text-yellow-800 mb-2">📌 Cara Penggunaan:</h3>
+                <ol class="text-gray-700 space-y-2">
+                    <li>1. Simpan file HTML ini sebagai <code class="bg-yellow-200 px-2 py-1 rounded">index.html</code></li>
+                    <li>2. Pastikan file <code class="bg-yellow-200 px-2 py-1 rounded">mtk.html</code> berada dalam folder yang sama</li>
+                    <li>3. Buka <code class="bg-yellow-200 px-2 py-1 rounded">index.html</code> di browser</li>
+                    <li>4. Klik card "Sistem K Otomatis" untuk membuka kalkulator</li>
+                </ol>
+            </div>
+
+            <!-- Info Section -->
+            <div class="bg-white rounded-2xl p-8 shadow-xl mb-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">📚 Tentang Platform Ini</h2>
+                <p class="text-gray-600 mb-4">
+                    Hub Belajar Matematika adalah platform pembelajaran interaktif yang dirancang khusus untuk membantu siswa memahami konsep trigonometri dengan lebih mudah.
+                </p>
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div class="bg-indigo-50 rounded-lg p-4">
+                        <div class="text-2xl mb-2">🎯</div>
+                        <h3 class="font-bold text-gray-800 mb-1">Akurat & Terpercaya</h3>
+                        <p class="text-sm text-gray-600">Perhitungan matematis yang presisi</p>
+                    </div>
+                    <div class="bg-green-50 rounded-lg p-4">
+                        <div class="text-2xl mb-2">📖</div>
+                        <h3 class="font-bold text-gray-800 mb-1">Penjelasan Lengkap</h3>
+                        <p class="text-sm text-gray-600">Setiap hasil disertai langkah detail</p>
+                    </div>
+                    <div class="bg-blue-50 rounded-lg p-4">
+                        <div class="text-2xl mb-2">💡</div>
+                        <h3 class="font-bold text-gray-800 mb-1">Mudah Dipahami</h3>
+                        <p class="text-sm text-gray-600">Interface intuitif dan user-friendly</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="text-center">
+                <div class="bg-gradient-to-r from-indigo-100 to-purple-100 rounded-xl p-6 inline-block shadow-lg">
+                    <p class="text-gray-700 font-semibold text-lg mb-2">
+                        Created with ❤️ by <span class="text-indigo-600 font-bold">Fakhri Maulana Januar</span>
+                    </p>
+                    <p class="text-sm text-gray-600">Platform Belajar Matematika Interaktif</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
